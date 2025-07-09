@@ -45,13 +45,14 @@ header {
     background-position-x: center;
 }
 
-li {
+a > li {
     display: inline-block;
     margin: 20px;
+    color: white;
 }
 
-a > li {
-    color: white;
+a > li:hover {
+    text-decoration: underline;
 }
 
 /* main */
@@ -195,4 +196,10 @@ footer a:hover {
 #rede-social img {
     height: 3rem;
     width: 3rem;
+    cursor: pointer;
+}
+
+#rede-social img:hover {
+    opacity: 40%;
+    transition: 100ms;
 }
