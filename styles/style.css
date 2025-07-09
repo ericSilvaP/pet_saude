@@ -40,7 +40,7 @@ header {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-image: url("components/images/pet-logo.png");
+    background-image: url('/pet_saude/components/images/pet-logo.png');
     background-size: cover;
     background-position-x: center;
 }
