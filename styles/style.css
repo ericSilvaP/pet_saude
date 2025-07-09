@@ -94,14 +94,14 @@ main {
     font-family: sans-serif;
 }
 
-#acao {
+#title #acao {
     color: var(--color01);
     font-size: 48pt;
 }
 
 aside {
     margin: 6rem 0;
-    padding: 20px 30px;
+    padding: 2rem 2.5rem;
     background-color: #f9f9f9;
     border-left: 5px solid var(--color02);
     border-radius: 10px;
@@ -151,4 +151,48 @@ strong {
 main ul > li {
     margin: 0.5rem 0 0.5rem 2rem;
     display: list-item;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color02);
+    color: white;
+    padding: 3rem 2rem 2rem 2rem;
+    gap: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #ddd;
+    transition: color 0.1s;
+}
+
+#nome-projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16pt;
+    gap: 10px;
+    font-weight: 700;
+}
+
+#nome-projeto img {
+    width: 6rem;
+    height: 6rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#rede-social img {
+    height: 3rem;
+    width: 3rem;
 }
