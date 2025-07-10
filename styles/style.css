@@ -76,6 +76,10 @@ main {
     margin-top: 0;
 }
 
+#title-container p {
+    font-size: 16pt;
+}
+
 .title-bg {
     position: absolute;
     top: 0;
@@ -100,7 +104,12 @@ main {
     font-size: 48pt;
 }
 
+section > div {
+    display: none;
+}
+
 aside {
+    flex: 5 1 0%;
     margin: 6rem 0;
     padding: 2rem 2.5rem;
     background-color: #f9f9f9;
@@ -111,9 +120,10 @@ aside {
     text-align: justify;
 }
 
-aside > h2 {
+aside h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 26pt;
+    font-weight: 500;
     color: var(--color03);
     margin-bottom: 1rem;
 }
@@ -150,8 +160,12 @@ strong {
 }
 
 main ul > li {
-    margin: 0.5rem 0 0.5rem 2rem;
+    margin: 0.2rem 0 0.2rem 2rem;
     display: list-item;
+}
+
+#sobre {
+    font-weight: bolder;
 }
 
 /* footer */

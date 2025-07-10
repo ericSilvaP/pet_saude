@@ -1,0 +1,23 @@
+@media screen and (min-width: 1024px) {
+    section {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    section > div {
+        display: block;
+    }
+
+    section img {
+        width: 35vw;
+    }
+
+    main {
+        padding: 0 6rem;
+    }
+
+    #title-container p {
+        max-width: 50rem;
+    }
+}
