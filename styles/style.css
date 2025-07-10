@@ -126,6 +126,7 @@ aside h2 {
     font-weight: 500;
     color: var(--color03);
     margin-bottom: 1rem;
+    text-align: left;
 }
 
 #buttons {
